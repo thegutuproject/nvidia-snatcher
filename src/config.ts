@@ -10,7 +10,7 @@ const notifications = {
 	},
 	phone: {
 		availableCarriers: ['sprint', 'verizon', 'tmobile', 'att'],
-		carrier: process.env.PHONE_CARRIER,
+		carrier: process.env.CARRIER,
 		number: process.env.PHONE_NUMBER
 	},
 	slack: {
